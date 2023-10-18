@@ -8,6 +8,8 @@ import Todo from "./todo/Components/Todo";
 function App() {
 
   const [dataJob , setDataJob] = useState([])
+  const [valueItem , setValueItem] = useState('test')
+ 
 
     useEffect(() => {
       ConfigDb(setDataJob)
@@ -19,8 +21,16 @@ function App() {
         <Todo 
         dataJob={dataJob}
         setDataJob={setDataJob}
+        valueItem={valueItem}
         />
-        <Footer/>
+        {dataJob.length > 0 ? 
+        <Footer dataJob={dataJob}
+        setValueItem={setValueItem}
+        setDataJob={setDataJob}
+        />
+        : 
+        <span></span>
+        }
     </div>
   );
 }
