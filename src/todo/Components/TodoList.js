@@ -7,7 +7,6 @@ function TodoList({itemTitle , itemId , setDataJob , itemCompleted}) {
 
     const [checkJob , setCheckJob ] = useState(false)
 
-    console.log(checkJob);
 
     const handleCheckJob = (checkJob) => {
         setCheckJob(checkJob)
