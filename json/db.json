@@ -1,18 +1,3 @@
 {
-  "todo": [
-    {
-      "id": 0.5240159139505136,
-      "title": "1",
-      "completed": false,
-      "status": "all",
-      "statuss": "test"
-    },
-    {
-      "id": 0.6584721203467168,
-      "title": "2",
-      "completed": false,
-      "status": "all",
-      "statuss": "test"
-    }
-  ]
+  "todo": []
 }

@@ -1,3 +1,4 @@
+"use strict";
 import axios from "axios"
 
 const apiJob = 'http://localhost:3001/todo'
